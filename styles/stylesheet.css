@@ -1,0 +1,112 @@
+/*
+Colors:
+#0B0C10
+#1F2833
+#C5C6C7
+#BEBFC1
+#66FCF1
+#45A29E
+#3D8F8B
+*/
+
+body {
+  /*sets the background color*/
+  background-color: #0B0C10;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+/*sets the formating for the header(h1)*/
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 3vmax;
+  color: #3D8F8B;
+
+}
+
+/*sets the formatting for the paragraph*/
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 2.5vmax;
+  color: #C5C6C7;
+}
+
+/*sets formatting for the body*/
+b {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 2vmin;
+  color:#C5C6C7;
+}
+/*sets formating for a blockquote */
+blockquote{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 2vmin;
+  color:#BEBFC1;
+  padding-top: 0px;
+  padding-right: 1vmax;
+  padding-bottom: 0px;
+  padding-left: 1vmin;
+  border-left: 0.5vmax solid lightgray;
+}
+
+/*sets formating for the site header*/
+ol
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 5;
+  overflow: none;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+
+  background-color: #1F2833;
+  border: 5px solid #3D8F8B;
+  border-radius: 0px;
+}
+
+.graybutton
+{
+  border: none;
+  background: #C5C6C7;
+  color: #1F2833 !important;
+  font-size: 2vmax;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  display: inline-block;
+}
+
+.graybuttonSelected
+{
+  border: 5px solid #BEBFC1;
+  background: #1F2833;
+  color: #C5C6C7 !important;
+  font-size: 2.5vmax;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  display: inline-block;
+}
+
+.graybutton:hover
+{
+  border: 5px solid #BEBFC1;
+  border-radius: 0px;
+  color: #C5C6C7 !important;
+  font-size: 2vmax !important;
+  letter-spacing: 3px;
+  background: #1F2833;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+
+IMG.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
