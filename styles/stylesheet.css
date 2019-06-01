@@ -27,11 +27,6 @@ nav > ul > li:nth-child(1) {
   font-weight: 700;
 }
 
-#spacer {
-  height: 50px;
-  width: 100%;
-}
-
 body {
   /*sets the background color*/
   background-color: black ;
@@ -108,7 +103,7 @@ blockquote{
   background: none;
 }
 
-.tab button:active
+.tab button.active
 {
   border-color: none;
   border-radius: 8px;
@@ -118,6 +113,11 @@ blockquote{
   background: none;
 }
 
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
 
 IMG.center {
     display: block;
