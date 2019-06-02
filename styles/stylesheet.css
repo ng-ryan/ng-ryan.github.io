@@ -2,8 +2,6 @@
 
 nav {
   list-style-type: none;
-  margin: 10;
-  padding: 10;
   overflow: none;
   position: -webkit-sticky; /* Safari */
   position: sticky;

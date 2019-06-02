@@ -5,6 +5,9 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="googleStylesheet">
   <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 
+  <script src="js/openTab.js"></script>
+  <script src="js/openDefault.js"></script>
+
   <meta charset="UTF-8">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,7 +19,7 @@
 
 </head>
 
-<body>
+<body onload="openDefault()">
 
   <nav>
     <ul>
@@ -64,31 +67,3 @@
 </body>
 
 </html>
-
-<!-- put the script in a seperate file -->
-<script>
-
-document.getElementById("defaultOpen").click();
-
-function openTab(evt, id) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(id).style.display = "inherit";
-  evt.currentTarget.className += " active";
-}
-
-</script>
