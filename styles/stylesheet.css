@@ -2,13 +2,11 @@
 
 nav {
   list-style-type: none;
-  overflow: none;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 
   background-color: #1F2833;
-  border: 1px solid #1F2833;
   border-radius: 0px;
 }
 
@@ -18,11 +16,13 @@ nav > ul > li {
   text-align: center;
   font-size: 2.5vmax;
   color: white;
+  margin: 0;
 
 }
 
 nav > ul > li:nth-child(1) {
   font-weight: 700;
+  margin: 0;
 }
 
 div {
@@ -44,6 +44,7 @@ h1 {
   text-align: center;
   font-size: 2vmax;
   color: #3D8F8B;
+  margin: 0;
 }
 
 /*sets the formatting for the paragraph*/
@@ -52,6 +53,7 @@ p {
   text-align: left;
   font-size: 2vmax;
   color: #C5C6C7;
+  margin: 0;
 }
 
 /*sets formatting for the body*/
@@ -60,6 +62,7 @@ b {
   text-align: center;
   font-size: 2vmax;
   color:#C5C6C7;
+  margin: 0;
 }
 /*sets formating for a blockquote */
 blockquote{
@@ -72,6 +75,7 @@ blockquote{
   padding-bottom: 0px;
   padding-left: 1vmax;
   border-left: 0.5vmax solid lightgray;
+  margin: 0;
 }
 
 .tab
@@ -81,7 +85,7 @@ blockquote{
   font-size: 1.5vmin;
   padding: 0px;
   text-transform: uppercase;
-  border-radius: 8px;
+  border-radius: 0px;
   display: inline-block;
 }
 
@@ -92,35 +96,36 @@ blockquote{
   font-size: 1.5vmax;
   padding: 10px;
   text-transform: uppercase;
-  border-color: none;
-  border-radius: 8px;
+  border-radius: 0px;
   display: inline-block;
+  margin: 0;
 }
 
 .tab button:hover
 {
-  border-color: none;
-  border-radius: 8px;
+  border-radius: 0px;
   color: tomato !important;
   font-size: 2vmax !important;
   letter-spacing: 3px;
   background: none;
+  margin: 0;
 }
 
 .tab button.active
 {
-  border-color: none;
-  border-radius: 8px;
+  border-radius: 0px;
   color: tomato !important;
   font-size: 2vmax !important;
   letter-spacing: 5px;
   background: none;
+  margin: 0;
 }
 
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border-top: none;
+  margin: 0;
 }
 
 IMG.center {
