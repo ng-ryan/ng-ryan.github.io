@@ -1,8 +1,6 @@
 /* Start of Navigation Styles */
 
 nav {
-  margin: -9.5px !important;
-
   list-style-type: none;
   overflow: none;
   position: -webkit-sticky; /* Safari */
@@ -37,6 +35,7 @@ body {
   background-image: url(../images/background.jpg);
   */
   background-size: cover;
+  margin: 0;
 }
 
 /*sets the formating for the header(h1)*/
