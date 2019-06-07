@@ -1,6 +1,8 @@
 /* Start of Navigation Styles */
 
 nav {
+  margin: -7px !important;
+
   list-style-type: none;
   overflow: none;
   position: -webkit-sticky; /* Safari */
@@ -8,7 +10,7 @@ nav {
   top: 0;
 
   background-color: #1F2833;
-  border: 5px solid #3D8F8B;
+  border: 1px solid #1F2833;
   border-radius: 0px;
 }
 
