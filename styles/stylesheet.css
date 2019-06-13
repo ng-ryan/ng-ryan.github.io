@@ -67,8 +67,8 @@ b {
 /*sets formating for a blockquote */
 blockquote{
   font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-size: 2vmax;
+  text-align: left;
+  font-size: 1.5vmax;
   color:#BEBFC1;
   padding-top: 0px;
   padding-right: 1vmax;
