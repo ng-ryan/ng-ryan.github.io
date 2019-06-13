@@ -56,9 +56,61 @@
       Contact
     </p>
   </div>
+
+  <div id="SMTP Server Bypass" class="tabcontent">
+    <p>
+      SMTP Server Bypass
+    </p>
+
+    <blockquote>
+      telnet mail.server.com 25
+    </blockquote>
+    <br>
+    <blockquote>
+      HELO server.com
+    </blockquote>
+    <br>
+    <blockquote>
+      mail from: <sender@mail.com>
+    </blockquote>
+    <br>
+    <blockquote>
+      rcpt to: <recipient@mail.com>
+    </blockquote>
+    <br>
+    <blockquote>
+      data
+    </blockquote>
+    <br>
+    <blockquote>
+      To: sender <sender@mail.com>
+      From: recipient <recipient@mail.com>
+      Subject: Email Subject
+
+      body
+
+      .
+
+    </blockquote>
+    <br>
+    <p>
+      or
+    </p>
+    <blockquote>
+      To: sender <sender@mail.com>
+      From: recipient <recipient@mail.com>
+      Subject: Email Subject
+      Mime-Version: 1.0;
+      Content-Type: text/html; charset="ISO-8859-1";
+      Content-Transfer-Encoding: 7bit;
+
+      :html code
+    .
+    </blockquote>
+    <br>
+  </div>
+
 <script src="js/openDefault.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
-<script src="js/firebase.js"></script>
 </body>
 
 </html>
