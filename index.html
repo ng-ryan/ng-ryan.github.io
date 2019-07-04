@@ -26,7 +26,7 @@
         <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
         <button class="tablinks" onclick="openTab(event, 'About')">About</button>
         <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-        <button class="tablinks" onclick="openTab(event, 'SMTP Server Bypass')">SMTP Server Bypass</button>
+        <button class="tablinks" onclick="openTab(event, 'SRP Form')">SRP Form</button>
       </div>
     </ul>
   </nav>
@@ -58,57 +58,10 @@
     </p>
   </div>
 
-  <div id="SMTP Server Bypass" class="tabcontent">
+  <div id="SRP Form" class="tabcontent">
     <p>
-      SMTP Server Bypass
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFlQWqRVNcQ8Kjfy_m3o9uHm9Ahy067Vjoh9WGFyJMOJ_Eew/viewform?embedded=true" width="640" height="808" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </p>
-
-    <blockquote>
-      telnet mail.server.com 25
-    </blockquote>
-    <br>
-    <blockquote>
-      HELO server.com
-    </blockquote>
-    <br>
-    <blockquote>
-      mail from: <sender@mail.com>
-    </blockquote>
-    <br>
-    <blockquote>
-      rcpt to: <recipient@mail.com>
-    </blockquote>
-    <br>
-    <blockquote>
-      data
-    </blockquote>
-    <br>
-    <blockquote>
-      To: sender <sender@mail.com>
-      From: recipient <recipient@mail.com>
-      Subject: Email Subject
-
-      body
-
-      .
-
-    </blockquote>
-    <br>
-    <p>
-      or
-    </p>
-    <blockquote>
-      To: sender <sender@mail.com>
-      From: recipient <recipient@mail.com>
-      Subject: Email Subject
-      Mime-Version: 1.0;
-      Content-Type: text/html; charset="ISO-8859-1";
-      Content-Transfer-Encoding: 7bit;
-
-      :html code
-    .
-    </blockquote>
-    <br>
   </div>
 
 <script src="js/openDefault.js"></script>
